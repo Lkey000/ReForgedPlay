@@ -568,6 +568,7 @@ public class FullReplaySender extends ChannelDuplexHandler implements ReplaySend
     protected Packet processPacket(Packet p) throws Exception {
         if (p instanceof LoginSuccessS2CPacket) {
             registry = registry.withLoginSuccess();
+            com.replaymod.replay.util.ReplayPacketGate.awaitRegistrySync();
             return p;
         }
         //#if MC>=12002

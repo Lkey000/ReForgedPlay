@@ -345,7 +345,7 @@ public class ReplayHandler {
         //#else
         networkManager.setState(NetworkState.LOGIN);
         //#endif
-
+        com.replaymod.replay.util.ReplayPacketGate.reset();
         networkManager.setPacketListener(new ClientLoginNetworkHandler(
                 networkManager,
                 mc,
