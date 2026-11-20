@@ -4,6 +4,8 @@
   "mixins": [],
   "server": [],
   "client": [
+    "MixinClientConnection",
+    "Mixin_EpicFightRecording",
     "AddServerScreenAccessor",
     "ClientLoginNetworkHandlerAccessor",
     "EntityLivingBaseAccessor",

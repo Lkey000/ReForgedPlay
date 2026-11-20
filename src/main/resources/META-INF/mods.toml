@@ -7,7 +7,7 @@ version="${version}"
 displayName="ReForgedPlay Texture FIX"
 logoFile="logo.png"
 displayTest = "IGNORE_SERVER_VERSION"
-authors="CrushedPixel, johni0702, Ferri_Arnus, Lkey000 (unofficial patches)"
+authors="Lkey000"
 description='''
 A Mod which allows you to record, replay and share your Minecraft experience.
 '''

@@ -5,6 +5,7 @@
   "mixins": [],
   "server": [],
   "client": [
+    "Mixin_EpicFightRemoteSkill",
     "Mixin_CitadelTickRate",
     "Mixin_WaitForRegistrySync",
     "entity_tracking.Mixin_EntityExt",
